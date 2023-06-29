@@ -16,4 +16,11 @@
 // Ignore el tipado de typescript
 // let anyValue: any = 'hola'
 // anyValue.
+// evitar any
 
+// inferencia
+// como a y b infiere que son number sin decirla nada a 
+const a = 1
+const b = 2
+const c = a + b
+// c también será number
